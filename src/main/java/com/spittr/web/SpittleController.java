@@ -18,7 +18,7 @@ public class SpittleController {
 
     private SpittleRepository spittleRepository;
 
-    private static final String MAX_LONG_AS_STRING = Long.toString(Long.MAX_VALUE);
+    private static final String MAX_LONG_AS_STRING = "" + Long.MAX_VALUE;
 
     @Autowired
     public SpittleController(SpittleRepository spittleRepository) {
